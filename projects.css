@@ -1,0 +1,219 @@
+.arrow{
+    position: absolute;
+    top: 1.2cm;
+    width: 2cm;
+    rotate: 180deg;
+    left: 38cm;
+
+}
+.parentcontainer{
+    position: relative;
+    width: 40.2cm;
+    height: 19cm;
+    background-image: linear-gradient(rgb(121, 217, 11), rgb(68, 202, 68));
+    top: 29.8cm;
+    box-shadow: 0 6px 100px 2px rgb(0, 0, 0);
+    /* overflow: auto; */
+}
+.DivForStaticImage{
+    position: relative;
+    top: 30cm;
+    font-size: 2cm;
+    font-family:Fantasy;
+    left: 0.0cm;
+}
+.projectsword{
+    position: relative;
+    top: 1cm;
+    font-size: 1.5cm;
+}
+
+/* projects  */
+.parantecontainer1{
+    background: none;
+    position: relative;
+    top: -2.7cm;
+    margin-left: 0.2cm;
+    margin-right: 1cm;
+    width: 39.8cm;
+    overflow: auto;
+}
+
+
+.programbox{
+    background: none;
+    position: relative;
+    display: flex;
+    width: 119cm;
+    height: 15cm;
+    margin-top: 3cm;
+    column-gap: 1cm;
+    /* overflow: auto; */
+}
+.parantecontainer1::-webkit-scrollbar{
+    display: none;
+}
+
+
+.programbox .pro1{
+    background-image: linear-gradient(orange,brown);
+    width: 19cm;
+    border-radius: 1cm;
+    border-width: 1cm;
+    box-shadow: 0.3cm 0.3cm 01cm black;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.pro1:hover{
+    width: 20cm;
+    border-width: 3cm;
+    box-shadow: 1cm 0.3cm 01cm rgb(151, 218, 7);
+}
+.programbox .pro2{
+    background-image: linear-gradient(rgb(225, 255, 0),brown);
+    /* background-color: rgb(5, 3, 3); */
+    width: 19cm;
+    border-radius: 1cm;
+    border-width: 1cm;
+    box-shadow: 0.3cm 0.3cm 01cm black;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.pro2:hover{
+    width: 20cm;
+    border-width: 3cm;
+    box-shadow: 1cm 0.3cm 01cm rgb(151, 218, 7);
+}
+.programbox .pro3{
+    /* background-color: rgb(102, 182, 68); */
+    background-image: linear-gradient(rgb(85, 255, 0),brown);
+    width: 19cm;
+    border-radius: 1cm;
+    border-width: 1cm;
+    box-shadow: 0.3cm 0.3cm 01cm black;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.pro3:hover{
+    width: 20cm;
+    border-width: 3cm;
+    box-shadow: 1cm 0.3cm 01cm rgb(151, 218, 7);
+    
+}
+.programbox .pro4{
+    background-image: linear-gradient(rgb(0, 255, 157),brown);
+    /* background-color: orange; */
+    width: 19cm;
+    border-radius: 1cm;
+    border-width: 1cm;
+    box-shadow: 0.3cm 0.3cm 01cm black;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.pro4:hover{
+    width: 20cm;
+    border-width: 3cm;
+    box-shadow: 1cm 0.3cm 01cm rgb(151, 218, 7);
+}
+.programbox .pro5{
+    /* background-color: purple; */
+    background-image: linear-gradient(rgb(255, 0, 170),brown);
+    width: 19cm;
+    border-radius: 1cm;
+    border-width: 1cm;
+    box-shadow: 0.3cm 0.3cm 01cm black;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.pro5:hover{
+    width: 23cm;
+    border-width: 3cm;
+    box-shadow: 1cm 0.3cm 01cm rgb(151, 218, 7);
+}
+.programbox .pro6{
+    /* background-color: white; */
+    background-image: linear-gradient(rgb(0, 174, 255),brown);
+    width: 19cm;
+    border-radius: 1cm;
+    border-width: 1cm;
+    box-shadow: 0.3cm 0.3cm 01cm black;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.pro5:hover{
+    width: 22cm;
+    border-width: 3cm;
+    box-shadow: 50cm 0.3cm 5cm rgb(151, 218, 7);
+}
+.ProByImage{
+    width: 15cm;
+    height: 8cm;
+    border-width: 1cm;
+    border-color: black;
+    border-radius: 1cm;
+    box-shadow: 0 1cm 1cm;
+}
+.smartAttendaseimage{
+    width: 15cm;
+    height: 8cm;
+    border-width: 1cm;
+    border-color: black;  
+    border-radius: 1cm;
+    box-shadow: 0 1cm 1cm;
+}
+.Voice_controleImg{
+    width: 15cm;
+    height: 8cm;
+    border-width: 1cm;
+    border-color: black; 
+    border-radius: 1cm;
+    box-shadow: 0 1cm 1cm; 
+}
+.alcoholDetectionImag{
+    width: 15cm;
+    height: 8cm;
+    border-width: 1cm;
+    border-color: black; 
+    border-radius: 1cm;
+    box-shadow: 0 1cm 1cm; 
+}
+.HeartCareImage{
+    width: 15cm;
+    height: 8cm;
+    border-width: 1cm;
+    border-color: black;  
+    border-radius: 1cm;
+    box-shadow: 0 1cm 1cm;
+}
+.calculatorIMG{
+    width: 15cm;
+    height: 8cm;
+    border-width: 1cm;
+    border-color: black;  
+    border-radius: 1cm;
+    box-shadow: 0 1cm 1cm;
+}
+.smartAttendaseimagetxt{
+    font-size: 0.65cm;
+    margin-top: 1cm;
+}
+.ProByImagetext{
+    font-size: 0.65cm;
+    margin-top: 1cm;
+}
+.Voice_controleImgtext{
+    font-size: 0.6cm;
+    margin-top: 1cm;
+}
+.alcoholDetectionImagtext{
+    font-size: 0.65cm;
+    margin-top: 1cm;
+}
+.HeartCareImagetext{
+    font-size: 0.57cm;
+    margin-top: 1cm;
+}
+.calculatorIMGtext{
+    font-size: 0.57cm;
+    margin-top: 1cm;
+}

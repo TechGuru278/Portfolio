@@ -1,0 +1,60 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    user-select: none;
+}
+body{
+    background-color: rgba(145, 247, 166, 0.595);
+    font-family: 'Times New Roman', Times, serif;
+}
+.navBar{
+    height: 2cm;
+    background-color: rgba(90, 209, 43, 0.378);
+    border-color: rgb(0, 255, 119);
+    border-width: 0.1cm;
+    /* border-style:groove; */
+}
+.navBar .navimg{
+    width: 1cm;
+    height: 1cm;
+    margin-left: 0.5cm;
+    margin-top: 0.5cm;
+}
+.navBar .exit{
+    width: 1cm;
+    height: 1cm;
+    margin-left: -1.2cm;
+    margin-top: 0.5cm;
+    visibility: hidden;
+}
+.navBar .Myname{
+    font-size: 1cm;
+    position: absolute;
+    top: 0.5cm;
+    left: 3.1cm;
+}
+.menulist{
+    position: absolute;
+    background-color: rgb(32, 203, 32);
+    width: 7cm;
+    top: 2cm;
+    left: 0;
+    height: 18.5cm;
+    color: black;
+    font-size: 0.5cm;
+    visibility: hidden;
+    z-index: 1; /* Higher than the background content */
+
+}
+h3:hover{
+    color: aliceblue;
+    transition: 0.5s ease-out;
+    transition-property: initial;
+    text-decoration: underline;
+}
+
+.list{
+    position: relative;
+    top: 3cm;
+}
+

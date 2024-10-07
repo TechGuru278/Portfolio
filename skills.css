@@ -1,0 +1,96 @@
+.skillspart{
+    height: 27cm;
+    width: 40.2cm;
+    /* background-color: rgba(43, 255, 0, 0.381); */
+    background-image: linear-gradient(green, yellow);
+    position: relative;
+    top: 7.5cm;
+    /* background-image: url("https://as2.ftcdn.net/v2/jpg/01/75/10/47/1000_F_175104761_cipLdVSlFgdvHgosCzQ6tBqX9l9iw9qO.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    box-shadow: 0 6px 100px 2px rgb(0, 0, 0);
+}
+.Skillstitle{
+    position: relative;
+    top: 0.8cm;
+    font-size: 1.5cm;
+}
+.coloum1{
+    display: flex;
+    column-gap: 4cm;
+}
+.HTML{
+    width: 7cm;
+    height: 6cm;
+    /* background-color: black; */
+}
+.css{
+    width: 7cm;
+    height: 6cm;
+    /* background-color: rgb(211, 14, 14); */
+}
+.JS{
+    width: 7cm;
+    height: 6cm;
+    /* background-color: rgb(20, 148, 116); */
+}
+
+
+.coloum2{
+    display: flex;
+    column-gap: 4cm;
+    margin-top: 2cm;
+}
+.bootstrap{
+    width: 7cm;
+    height: 6cm;
+    padding-top: 0.8cm;
+    /* background-color: rgb(58, 35, 134); */
+}
+.python{
+    padding-top: 0.8cm;
+    width: 7cm;
+    height: 6cm;
+    /* background-color: rgb(51, 176, 80); */
+}
+.JAVA{
+    padding-top: 0.1cm;
+    width: 7cm;
+    height: 6cm;
+    /* background-color: rgb(235, 36, 138); */
+}
+.aligment{
+    position: relative;
+    top: 1.8cm;
+    left: 0cm;
+}
+
+.coloum3{
+    display: flex;
+    column-gap: 5cm;
+    margin-top: 0cm;
+}
+.mern{
+    width: 7cm;
+    height: 6cm;
+    padding-top: 0.8cm;
+    /* background-color: rgb(58, 35, 134); */
+}
+.uiux{
+    padding-top: 1.5cm;
+    width: 7cm;
+    height: 6cm;
+    /* background-color: rgb(51, 176, 80); */
+}
+.cyber{
+    padding-top: 0.2cm;
+    width: 7cm;
+    height: 6cm;
+    /* background-color: rgb(235, 36, 138); */
+}
+.aligment{
+    position: relative;
+    top: 1.8cm;
+    left: 0cm;
+}

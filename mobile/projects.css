@@ -1,0 +1,210 @@
+.solgans2 {
+    background-color: rgba(105, 130, 73, 0.66);
+    height: 2cm;
+}
+
+.solgans2 .solgans21 {
+    position: relative;
+    top: 0.5cm;
+    font-family: Copperplate;
+    font-size: 1cm;
+}
+
+.projects {
+    height: 10cm;
+    background-image: linear-gradient(orange, green);
+    box-shadow: 0 6px 100px 2px rgb(244, 147, 1);
+}
+
+.contanerforscrool {
+    /* background-color: black; */
+    position: relative;
+    /* top: 2cm; */
+    display: flex;
+    height: 6.5cm;
+    width: 40cm;
+    column-gap: 0.8cm;
+    /* overflow-x: auto; */
+}
+
+.contanerforscrool .smartattendance {
+    background-image: linear-gradient(orange, brown);
+    width: 6cm;
+    height: 6cm;
+    position: relative;
+    /* left: 0.2cm; */
+    border-radius: 50%;
+}
+
+.contanerforscrool .smartattendance:hover{
+    width: 7cm;
+    border-width: 3cm;
+    box-shadow: 0cm 0.3cm 01cm rgb(151, 218, 7);
+    transition: 0.5s ease-in;
+}
+
+.contanerforscrool .ProBy {
+    background-image: linear-gradient(rgb(225, 255, 0), brown);
+    width: 6cm;
+    height: 6cm;
+    position: relative;
+    /* left: 1cm; */
+    border-radius: 50%;
+}
+.contanerforscrool .ProBy:hover{
+    width: 7cm;
+    border-width: 3cm;
+    transition: 0.5s ease-in;
+    box-shadow: 0cm 0.3cm 01cm rgb(151, 218, 7);
+}
+
+.contanerforscrool .VoiceControledApp {
+    background-image: linear-gradient(rgb(0, 255, 157), brown);
+    width: 6cm;
+    height: 6cm;
+    position: relative;
+    /* left: 2cm; */
+    border-radius: 50%;
+}
+.contanerforscrool .VoiceControledApp:hover{
+    width: 7cm;
+    border-width: 3cm;
+    box-shadow: 0cm 0.3cm 01cm rgb(151, 218, 7);transition: 0.5s ease-in;
+}
+.contanerforscrool .alcoholfreecar {
+    background-image: linear-gradient(rgb(255, 0, 170), brown);
+    width: 6cm;
+    height: 6cm;
+    position: relative;
+    /* left: 2cm; */
+    border-radius: 50%;
+}
+.contanerforscrool .alcoholfreecar:hover{
+    width: 7cm;transition: 0.5s ease-in;
+    border-width: 3cm;
+    box-shadow: 0cm 0.3cm 01cm rgb(151, 218, 7);
+}
+.contanerforscrool .portableheartcare {
+    background-image: linear-gradient(rgb(0, 174, 255), brown);
+    width: 6cm;
+    height: 6cm;
+    position: relative;
+    /* left: 3cm; */
+    border-radius: 50%;
+}
+.contanerforscrool .portableheartcare:hover{
+    width: 7cm;
+    border-width: 3cm;transition: 0.5s ease-in;
+    box-shadow: 0cm 0.3cm 01cm rgb(151, 218, 7);
+}
+.contanerforscrool .FullStaltCalculator {
+    background-image: linear-gradient(orange, brown);
+    width: 6cm;
+    height: 6cm;
+    position: relative;
+    /* left: 3cm; */
+    border-radius: 50%;
+}
+.contanerforscrool .FullStaltCalculator:hover{
+    width: 7cm;
+    border-width: 3cm;transition: 0.5s ease-in;
+    box-shadow: 0cm 0.3cm 01cm rgb(151, 218, 7);
+}
+.contoller {
+    position: relative;
+    top: 0.2cm;
+    /* background-color: aqua; */
+    height: 8cm;
+    overflow-x: auto;
+}
+.contoller::-webkit-scrollbar{
+    display: none;
+}
+
+.contanerforscrool h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 0.3cm;
+}
+
+/* footer  */
+.footer{
+    height: 14cm;
+    background-color: black;
+    width: 9.53cm;
+    color: antiquewhite;
+}
+.footer .contactifo{
+    display: flex;
+    background-color: black;
+    width: 8cm;
+    position: relative;
+    left: 0.5cm;
+    height: 3cm;
+    column-gap: 1cm;
+    margin-top: 1cm;
+}
+.footer .contactifo1{
+    display: flex;
+    background-color: black;
+    width: 8cm;
+    height: 3cm;
+    position: relative;
+    left: 0.5cm;
+    margin-top: 1cm;
+    column-gap: 1cm;
+}
+.contactifo .mail{
+    background-color: black;
+    width: 3cm;
+    height: 3cm;
+    border-radius: 50%;
+}
+.contactifo .mail:hover{
+    width: 3.5cm;
+    height: 3.5cm;
+    transition: 0.3s ease-in-out;
+}
+.contactifo .linkdin{
+    background-color: black;
+    width: 3cm;
+    height: 3cm;
+    border-radius: 50%;
+}
+.contactifo .linkdin:hover{
+    width: 3.5cm;
+    height: 3.5cm;
+    transition: 0.3s ease-in-out;
+}
+.contactifo1 .github{
+    background-color: black;
+    width: 3cm;
+    height: 3cm;
+    border-radius: 50%;
+}
+.contactifo1 .github:hover{
+    width: 3.5cm;
+    height: 3.5cm;
+    transition: 0.3s ease-in-out;
+}
+.contactifo1 .hackerrank{
+    background-color: black;
+    width: 4cm;
+    position: relative;
+    top: -0.3cm;
+    height: 4cm;
+    border-radius: 50%;
+    position: relative;
+    left: -0.3cm;
+}
+.contactifo1 .hackerrank:hover{
+    width: 4.5cm;
+    height: 4.5cm;
+    transition: 0.3s ease-in-out;
+}
+.copyrigth{
+    font-size: 0.4cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1cm;
+}

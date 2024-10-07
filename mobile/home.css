@@ -1,0 +1,167 @@
+.home h1{
+    font-size: 1cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.home p{
+    margin-top: -0.4cm;
+    font-size: 1cm;
+    display: flex;
+    align-items: center;
+    text-align:justify;
+    margin-left: 0.2cm;
+    justify-content: center;
+    justify-items: center;
+}
+.home .myImage1{
+    background-image: linear-gradient(green,yellow);
+    height: 7cm;
+    width: 8cm;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    box-shadow: 0cm 0cm 2cm 0.5cm green;
+    position: relative;
+    left: 0.8cm;
+    top: 0.5cm;
+    border-radius: 50%;
+    rotate: 90deg;
+}
+.home .myImage1 .myimag1{
+    width: 9cm;
+    height: 8cm;
+    position: relative;
+    bottom: 0.4cm;
+    right: 0.4cm;
+    rotate: 270deg;
+}
+.TheDeveloper{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8cm;
+    margin-top: 1.3cm;
+    margin-left: 0.3cm;
+}
+.home .paragrap{
+    margin-top: 0.4cm;
+    font-size: 0.5cm;
+    
+}
+.txt{
+    width: 9cm;
+    margin-left: 0.2cm;
+}
+.aboutMe{
+    margin-top: 0.8cm;
+}
+.aboutMe h1{
+    margin-left: 2.5cm;
+}
+.aboutMe .myImage2{
+    background-image: linear-gradient(green,yellow);
+    height: 9cm;
+    width: 8cm;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0cm 0cm 3cm 0.7cm green;
+    left: 0.8cm;
+    top: 0.3cm;
+    border-radius: 1cm;
+    
+}
+.aboutMe .myimage2{
+    margin-left: 0.5cm;
+    height: 9cm;
+}
+.aboutMe .txt2{
+    /* background-color: aqua; */
+    width: 9.5cm;
+    height: 6cm;
+}
+.aboutMe .txtlist {
+    font-size: larger;
+    text-align:justify;
+    margin-left: 1cm;
+    margin-top: 0.5cm;
+    margin-right: 0.3cm;
+}
+.solgans{
+    background-color: rgba(26, 194, 7, 0.349);
+    font-size: 0.52cm;
+    font-style: oblique;
+    font-display:unset;
+    font-variant: small-caps;
+    font-family:Copperplate;
+    height: 1.6cm;
+    backdrop-filter:initial;
+    border-style: groove;
+    border-width: 0.5cm;
+    border-color: rgba(11, 232, 33, 0.447);
+    box-shadow: 1cm 0.9cm 10cm  3cm  rgba(0, 128, 0, 0.563);
+}
+.solgans p{
+    position: relative;
+    top: 0.1cm;
+    left: 0.5cm;
+}
+.resume{
+    /* background-color: aqua; */
+    margin-top: 1cm;
+    width: 9.5cm;
+    
+}
+.resume p{
+    /* word-wrap: break-word; */
+    text-align: center;
+}
+.resume .download{
+    background-color: rgba(255, 217, 0, 0.745);
+    width: 4cm;
+    height: 1cm;
+    margin-top: 0.5cm;
+    border-radius: 1cm;
+    box-shadow: 0cm 0.9cm 3cm 1cm rgb(90, 118, 48);
+    font-size: 0.6cm;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* skills */
+.download:hover{
+    background-image: linear-gradient(yellow,green);
+}
+
+.Skills{
+    margin-top: 1.5cm;
+    background-image: linear-gradient(green,yellow);
+    height: 8cm;
+    box-shadow: 0 6px 100px 2px rgb(0, 0, 0);
+    /* box-shadow: 2cm 1cm 1cm 1.3cm rgb(71, 74, 71); */
+}
+.Skills .collm1 {
+    display: flex;
+}
+.Skills .collm2 {
+    display: flex;
+    margin-top: 1cm;
+    column-gap: 0.3cm;
+    row-gap: 0.1cm;
+}
+.Skills .collm3 {
+    display: flex;
+    margin-top: 0.5cm;
+}
+.html, .css, .js {
+    height: 2cm;
+    width: 2.5cm;
+}
+.boot, .py, .java {
+    height: 1.5cm;
+    width: 2cm;
+ 
+}
+.mern, .uiux, .cyber {
+    height: 2cm;
+    width: 2.5cm;
+}
